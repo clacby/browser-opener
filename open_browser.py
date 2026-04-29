@@ -1,9 +1,9 @@
 import webbrowser
 
-URL = "https://www.bbva.com.ar/"
+URL = input("Enter a URL to open: ")
 
-def open_page():
-    webbrowser.open(URL)
+def open_page(url):
+    webbrowser.open(url)
 
 if __name__ == "__main__":
-    open_page()
+    open_page(URL)
